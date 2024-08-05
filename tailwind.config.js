@@ -18,6 +18,8 @@ module.exports = {
           800: "#1e40af",
           900: "#1e3a8a",
         },
+        secondary: "#0f3f50",
+        text: "#323a3f",
       },
     },
   },
