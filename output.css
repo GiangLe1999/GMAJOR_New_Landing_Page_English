@@ -1163,6 +1163,10 @@ input:checked + .toggle-bg {
   margin-bottom: 0.25rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .block {
   display: block;
 }
@@ -2324,8 +2328,24 @@ body {
     margin-right: 0.5rem;
   }
 
+  .sm\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:h-9 {
